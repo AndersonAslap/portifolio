@@ -1,0 +1,372 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-31T00:00:00Z",
+  "title": "Design System: Anderson Paiva",
+  "extensions": {
+    "colorMeta": {
+      "silver": {
+        "role": "primary",
+        "displayName": "Prata Espelhada",
+        "canonical": "#d6d9de",
+        "tonalRamp": [
+          "#3a3c40",
+          "#5a5d63",
+          "#7e838c",
+          "#a9aeb6",
+          "#c3c7cd",
+          "#d6d9de",
+          "#e9ebee",
+          "#ffffff"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Preto Tinta",
+        "canonical": "#070708",
+        "tonalRamp": [
+          "#070708",
+          "#0e0e10",
+          "#1d1d21",
+          "#2c2c32",
+          "#6f747c",
+          "#9d9da7",
+          "#d6d9de",
+          "#ededf0"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Superfície Grafite",
+        "canonical": "#0e0e10",
+        "tonalRamp": [
+          "#070708",
+          "#0e0e10",
+          "#1d1d21",
+          "#2c2c32",
+          "#6f747c",
+          "#9d9da7",
+          "#d6d9de",
+          "#ededf0"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Filete",
+        "canonical": "#1d1d21",
+        "tonalRamp": [
+          "#070708",
+          "#0e0e10",
+          "#1d1d21",
+          "#2c2c32",
+          "#6f747c",
+          "#9d9da7",
+          "#d6d9de",
+          "#ededf0"
+        ]
+      },
+      "line-strong": {
+        "role": "neutral",
+        "displayName": "Filete Forte",
+        "canonical": "#2c2c32",
+        "tonalRamp": [
+          "#070708",
+          "#0e0e10",
+          "#1d1d21",
+          "#2c2c32",
+          "#6f747c",
+          "#9d9da7",
+          "#d6d9de",
+          "#ededf0"
+        ]
+      },
+      "steel": {
+        "role": "neutral",
+        "displayName": "Aço",
+        "canonical": "#6f747c",
+        "tonalRamp": [
+          "#070708",
+          "#0e0e10",
+          "#1d1d21",
+          "#2c2c32",
+          "#6f747c",
+          "#9d9da7",
+          "#d6d9de",
+          "#ededf0"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Cinza Sinal",
+        "canonical": "#9d9da7",
+        "tonalRamp": [
+          "#070708",
+          "#0e0e10",
+          "#1d1d21",
+          "#2c2c32",
+          "#6f747c",
+          "#9d9da7",
+          "#d6d9de",
+          "#ededf0"
+        ]
+      },
+      "fg": {
+        "role": "neutral",
+        "displayName": "Branco Gelo",
+        "canonical": "#ededf0",
+        "tonalRamp": [
+          "#070708",
+          "#0e0e10",
+          "#1d1d21",
+          "#2c2c32",
+          "#6f747c",
+          "#9d9da7",
+          "#d6d9de",
+          "#ededf0"
+        ]
+      }
+    },
+    "gradients": [
+      {
+        "name": "chrome",
+        "value": "linear-gradient(105deg, #7e838c 0%, #e9ebee 22%, #a9aeb6 40%, #ffffff 52%, #8d929b 70%, #d5d8dd 86%, #6f747c 100%)",
+        "purpose": "Cromo de alto contraste para texto (nome, frase de fechamento) e traços de linha/anel. Também como linearGradient SVG #chrome."
+      },
+      {
+        "name": "chrome-fill",
+        "value": "linear-gradient(105deg, #b4b8bf 0%, #eef0f2 25%, #c3c7cd 42%, #ffffff 55%, #b9bdc4 72%, #e4e6e9 88%, #aeb2b9 100%)",
+        "purpose": "Cromo claro para preenchimentos com texto ink: botão primário, idioma ativo, trilho, anel do monograma."
+      },
+      {
+        "name": "halo",
+        "value": "radial-gradient(60% 55% at 72% 42%, rgb(214 217 222 / 0.07), transparent 70%)",
+        "purpose": "Brilho atmosférico atrás do hero e do contato; opacidade 0.035 a 0.07."
+      }
+    ],
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Somente o nome no hero, em cromo."
+      },
+      "headline-terminal": {
+        "displayName": "Headline Terminal",
+        "purpose": "Título do contato, o fim da linha."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Títulos de seção."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Nomes de estação: serviços e empregadores."
+      },
+      "title-sm": {
+        "displayName": "Title SM",
+        "purpose": "Projetos secundários e canais de contato."
+      },
+      "body-lead": {
+        "displayName": "Body Lead",
+        "purpose": "Parágrafos de apoio em muted, até 34rem."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Listas de feitos e textos de projeto."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Tags, empresas, metadados, navegação."
+      },
+      "button": {
+        "displayName": "Button",
+        "purpose": "Rótulos de botão."
+      },
+      "data": {
+        "displayName": "Data",
+        "purpose": "Durações e códigos de idioma; só dados."
+      }
+    },
+    "shadows": [
+      {
+        "name": "chrome-bevel",
+        "value": "0 1px 0 rgb(255 255 255 / 0.5) inset, 0 8px 24px -12px rgb(214 217 222 / 0.45)",
+        "purpose": "Reflexo de metal no botão primário."
+      },
+      {
+        "name": "station-ring",
+        "value": "0 0 0 2.5px #6f747c",
+        "purpose": "Anel da estação apagada."
+      },
+      {
+        "name": "station-ring-lit",
+        "value": "0 0 0 2.5px #e9ebee, 0 0 0 7px rgb(214 217 222 / 0.08)",
+        "purpose": "Estação acesa com auréola tênue."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out-expo",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Curva padrão de brilho, desenho de linha e acendimento."
+      },
+      {
+        "name": "chrome-sweep",
+        "value": "background-position 600ms ease-out-expo",
+        "purpose": "Reflexo correndo pelo botão primário no hover."
+      },
+      {
+        "name": "station-light",
+        "value": "box-shadow 300ms ease-out-expo",
+        "purpose": "Estação acendendo."
+      },
+      {
+        "name": "line-draw",
+        "value": "stroke-dashoffset 1100ms ease-out-expo, stagger 110ms",
+        "purpose": "Linhas do mapa desenhando a partir do hub na carga."
+      },
+      {
+        "name": "press",
+        "value": "transform scale(0.97) 160ms ease-out-expo",
+        "purpose": "Estado ativo de botões."
+      },
+      {
+        "name": "color-shift",
+        "value": "color 200ms ease",
+        "purpose": "Links e textos clareando para fg."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "md",
+        "value": "768px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px"
+      },
+      {
+        "name": "xl",
+        "value": "1280px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Botão primário (cromo)",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "A única ação principal: metal polido com reflexo que corre no hover.",
+      "html": "<a class=\"ds-btn-primary\" href=\"#\"><svg class=\"ds-icon\" viewBox=\"0 0 24 24\"><path d=\"M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719\"/></svg><span>Conversar no WhatsApp</span></a>",
+      "css": ":host{--color-ink:#070708;--color-surface:#0e0e10;--color-line:#1d1d21;--color-line-strong:#2c2c32;--color-fg:#ededf0;--color-muted:#9d9da7;--color-silver:#d6d9de;--ease-out-expo:cubic-bezier(0.16,1,0.3,1);--chrome-fill:linear-gradient(105deg,#b4b8bf 0%,#eef0f2 25%,#c3c7cd 42%,#ffffff 55%,#b9bdc4 72%,#e4e6e9 88%,#aeb2b9 100%);--chrome:linear-gradient(105deg,#7e838c 0%,#e9ebee 22%,#a9aeb6 40%,#ffffff 52%,#8d929b 70%,#d5d8dd 86%,#6f747c 100%);} .ds-icon{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0;} .ds-btn-primary{font-family:'Schibsted Grotesk',ui-sans-serif,system-ui,sans-serif;display:inline-flex;align-items:center;gap:10px;min-height:48px;padding:0 24px;border-radius:9999px;background-image:var(--chrome-fill);background-size:200% 100%;background-position:30% 0;color:#070708;font-size:15px;font-weight:600;text-decoration:none;box-shadow:0 1px 0 rgb(255 255 255 / 0.5) inset,0 8px 24px -12px rgb(214 217 222 / 0.45);transition:background-position 600ms var(--ease-out-expo),transform 160ms var(--ease-out-expo);} .ds-btn-primary:hover{background-position:90% 0;} .ds-btn-primary:active{transform:scale(0.97);} .ds-btn-primary:focus-visible{outline:2px solid #d6d9de;outline-offset:3px;}"
+    },
+    {
+      "name": "Botão fantasma",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Ações secundárias (e-mail, LinkedIn): pílula com contorno grafite.",
+      "html": "<a class=\"ds-btn-ghost\" href=\"#\"><svg class=\"ds-icon\" viewBox=\"0 0 24 24\"><path d=\"m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7\"/><rect x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"2\"/></svg><span>E-mail</span></a>",
+      "css": ":host{--color-ink:#070708;--color-surface:#0e0e10;--color-line:#1d1d21;--color-line-strong:#2c2c32;--color-fg:#ededf0;--color-muted:#9d9da7;--color-silver:#d6d9de;--ease-out-expo:cubic-bezier(0.16,1,0.3,1);--chrome-fill:linear-gradient(105deg,#b4b8bf 0%,#eef0f2 25%,#c3c7cd 42%,#ffffff 55%,#b9bdc4 72%,#e4e6e9 88%,#aeb2b9 100%);--chrome:linear-gradient(105deg,#7e838c 0%,#e9ebee 22%,#a9aeb6 40%,#ffffff 52%,#8d929b 70%,#d5d8dd 86%,#6f747c 100%);} .ds-icon{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0;} .ds-btn-ghost{font-family:'Schibsted Grotesk',ui-sans-serif,system-ui,sans-serif;display:inline-flex;align-items:center;gap:10px;min-height:48px;padding:0 16px;border-radius:9999px;border:1px solid #2c2c32;background:transparent;color:#ededf0;font-size:15px;font-weight:500;text-decoration:none;transition:border-color 200ms ease,background-color 200ms ease,transform 160ms var(--ease-out-expo);} .ds-btn-ghost:hover{border-color:#6f747c;background-color:rgb(255 255 255 / 0.03);} .ds-btn-ghost:active{transform:scale(0.97);} .ds-btn-ghost:focus-visible{outline:2px solid #d6d9de;outline-offset:3px;}"
+    },
+    {
+      "name": "Seletor de idioma",
+      "kind": "chip",
+      "refersTo": "lang-button",
+      "description": "Grupo PT/EN/ES; o ativo acende em cromo.",
+      "html": "<div class=\"ds-lang\" role=\"group\"><button class=\"ds-lang-btn\" aria-pressed=\"true\">PT</button><button class=\"ds-lang-btn\" aria-pressed=\"false\">EN</button><button class=\"ds-lang-btn\" aria-pressed=\"false\">ES</button></div>",
+      "css": ":host{--color-ink:#070708;--color-surface:#0e0e10;--color-line:#1d1d21;--color-line-strong:#2c2c32;--color-fg:#ededf0;--color-muted:#9d9da7;--color-silver:#d6d9de;--ease-out-expo:cubic-bezier(0.16,1,0.3,1);--chrome-fill:linear-gradient(105deg,#b4b8bf 0%,#eef0f2 25%,#c3c7cd 42%,#ffffff 55%,#b9bdc4 72%,#e4e6e9 88%,#aeb2b9 100%);--chrome:linear-gradient(105deg,#7e838c 0%,#e9ebee 22%,#a9aeb6 40%,#ffffff 52%,#8d929b 70%,#d5d8dd 86%,#6f747c 100%);} .ds-lang{display:inline-flex;align-items:center;padding:2px;border:1px solid #1d1d21;border-radius:9999px;background:#070708;} .ds-lang-btn{font-family:'Overpass Mono',ui-monospace,SFMono-Regular,monospace;min-height:32px;min-width:36px;padding:0 8px;border:0;border-radius:9999px;background:transparent;color:#9d9da7;font-size:12px;letter-spacing:0.025em;cursor:pointer;transition:color 200ms ease,background-color 200ms ease;} .ds-lang-btn[aria-pressed=\"true\"]{background-image:var(--chrome-fill);background-size:200% 100%;background-position:30% 0;color:#070708;} .ds-lang-btn[aria-pressed=\"false\"]:hover{color:#ededf0;} .ds-lang-btn:focus-visible{outline:2px solid #d6d9de;outline-offset:3px;}"
+    },
+    {
+      "name": "Navegação",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Cabeçalho fixo translúcido com monograma em anel cromado e links muted.",
+      "html": "<header class=\"ds-header\"><a class=\"ds-brand\" href=\"#\"><span class=\"ds-mono-ring\"><span>AP</span></span>Anderson Paiva</a><nav><a class=\"ds-nav-link\" href=\"#\">Sobre</a><a class=\"ds-nav-link\" href=\"#\" aria-current=\"true\">Serviços</a><a class=\"ds-nav-link\" href=\"#\">Trajetória</a><a class=\"ds-nav-link\" href=\"#\">Contato</a></nav></header>",
+      "css": ":host{--color-ink:#070708;--color-surface:#0e0e10;--color-line:#1d1d21;--color-line-strong:#2c2c32;--color-fg:#ededf0;--color-muted:#9d9da7;--color-silver:#d6d9de;--ease-out-expo:cubic-bezier(0.16,1,0.3,1);--chrome-fill:linear-gradient(105deg,#b4b8bf 0%,#eef0f2 25%,#c3c7cd 42%,#ffffff 55%,#b9bdc4 72%,#e4e6e9 88%,#aeb2b9 100%);--chrome:linear-gradient(105deg,#7e838c 0%,#e9ebee 22%,#a9aeb6 40%,#ffffff 52%,#8d929b 70%,#d5d8dd 86%,#6f747c 100%);} .ds-header{font-family:'Schibsted Grotesk',ui-sans-serif,system-ui,sans-serif;display:flex;align-items:center;justify-content:space-between;gap:24px;height:64px;padding:0 32px;background:rgb(7 7 8 / 0.8);backdrop-filter:blur(12px);border-bottom:1px solid rgb(29 29 33 / 0.7);color:#ededf0;} .ds-brand{display:flex;align-items:center;gap:12px;color:#ededf0;text-decoration:none;font-size:15px;font-weight:600;letter-spacing:-0.025em;} .ds-mono-ring{display:grid;place-items:center;width:36px;height:36px;padding:1.5px;border-radius:9999px;background-image:var(--chrome-fill);} .ds-mono-ring span{display:grid;place-items:center;width:100%;height:100%;border-radius:9999px;background:#070708;font-size:13px;font-weight:700;} .ds-header nav{display:flex;gap:28px;} .ds-nav-link{padding:8px 0;font-size:14px;color:#9d9da7;text-decoration:none;transition:color 200ms ease;} .ds-nav-link:hover,.ds-nav-link[aria-current=\"true\"]{color:#ededf0;} .ds-nav-link:focus-visible{outline:2px solid #d6d9de;outline-offset:3px;border-radius:4px;}"
+    },
+    {
+      "name": "Rota de estações",
+      "kind": "custom",
+      "refersTo": "station",
+      "description": "Linha vertical com estações; o item em hover acende sua estação. Padrão de serviços e trajetória.",
+      "html": "<ol class=\"ds-route\"><span class=\"ds-route-line\"></span><li class=\"ds-row\"><span class=\"ds-station ds-lit\"></span><h3>Accenture</h3><span class=\"ds-data\">Atual</span></li><li class=\"ds-row\"><span class=\"ds-station\"></span><h3>Mexx</h3><span class=\"ds-data\">1,5 ano</span></li><li class=\"ds-row\"><span class=\"ds-station\"></span><h3>CMTech</h3><span class=\"ds-data\">4 anos</span></li></ol>",
+      "css": ":host{--color-ink:#070708;--color-surface:#0e0e10;--color-line:#1d1d21;--color-line-strong:#2c2c32;--color-fg:#ededf0;--color-muted:#9d9da7;--color-silver:#d6d9de;--ease-out-expo:cubic-bezier(0.16,1,0.3,1);--chrome-fill:linear-gradient(105deg,#b4b8bf 0%,#eef0f2 25%,#c3c7cd 42%,#ffffff 55%,#b9bdc4 72%,#e4e6e9 88%,#aeb2b9 100%);--chrome:linear-gradient(105deg,#7e838c 0%,#e9ebee 22%,#a9aeb6 40%,#ffffff 52%,#8d929b 70%,#d5d8dd 86%,#6f747c 100%);} .ds-route{font-family:'Schibsted Grotesk',ui-sans-serif,system-ui,sans-serif;position:relative;list-style:none;margin:0;padding:0;background:#070708;color:#ededf0;} .ds-route-line{position:absolute;left:6px;top:12px;bottom:12px;width:1px;background-image:var(--chrome);opacity:0.7;} .ds-row{position:relative;display:flex;align-items:baseline;justify-content:space-between;gap:16px;padding:0 0 40px 48px;} .ds-row h3{margin:0;font-size:1.5rem;font-weight:600;letter-spacing:-0.025em;} .ds-data{font-family:'Overpass Mono',ui-monospace,SFMono-Regular,monospace;font-size:13px;color:#9d9da7;} .ds-station{position:absolute;left:0;top:9px;width:14px;height:14px;border-radius:9999px;background:#070708;box-shadow:0 0 0 2.5px #6f747c;transition:box-shadow 300ms var(--ease-out-expo);} .ds-lit,.ds-row:hover .ds-station{box-shadow:0 0 0 2.5px #e9ebee,0 0 0 7px rgb(214 217 222 / 0.08);}"
+    },
+    {
+      "name": "Linha de contato",
+      "kind": "custom",
+      "refersTo": "contact-row",
+      "description": "Canal de contato no terminal: filete superior, ícone prata, valor e seta que clareiam no hover.",
+      "html": "<a class=\"ds-contact\" href=\"#\"><svg class=\"ds-icon ds-ch\" viewBox=\"0 0 24 24\"><path d=\"m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7\"/><rect x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"2\"/></svg><span class=\"ds-cbody\"><span class=\"ds-clabel\">E-mail</span><span class=\"ds-cvalue\">anderson@exemplo.com</span></span><svg class=\"ds-icon ds-arrow\" viewBox=\"0 0 24 24\"><path d=\"M7 7h10v10\"/><path d=\"M7 17 17 7\"/></svg></a>",
+      "css": ":host{--color-ink:#070708;--color-surface:#0e0e10;--color-line:#1d1d21;--color-line-strong:#2c2c32;--color-fg:#ededf0;--color-muted:#9d9da7;--color-silver:#d6d9de;--ease-out-expo:cubic-bezier(0.16,1,0.3,1);--chrome-fill:linear-gradient(105deg,#b4b8bf 0%,#eef0f2 25%,#c3c7cd 42%,#ffffff 55%,#b9bdc4 72%,#e4e6e9 88%,#aeb2b9 100%);--chrome:linear-gradient(105deg,#7e838c 0%,#e9ebee 22%,#a9aeb6 40%,#ffffff 52%,#8d929b 70%,#d5d8dd 86%,#6f747c 100%);} .ds-icon{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0;} .ds-contact{font-family:'Schibsted Grotesk',ui-sans-serif,system-ui,sans-serif;display:flex;align-items:center;gap:20px;padding:28px 0;border-top:1px solid #1d1d21;border-bottom:1px solid #1d1d21;color:#ededf0;text-decoration:none;} .ds-ch{width:24px;height:24px;color:#d6d9de;} .ds-cbody{flex:1;} .ds-clabel{display:block;font-size:18px;font-weight:600;letter-spacing:-0.025em;} .ds-cvalue{display:block;font-size:15px;color:#9d9da7;transition:color 200ms ease;} .ds-arrow{width:20px;height:20px;color:#9d9da7;transition:transform 300ms var(--ease-out-expo),color 200ms ease;} .ds-contact:hover .ds-cvalue,.ds-contact:hover .ds-arrow{color:#ededf0;} .ds-contact:hover .ds-arrow{transform:translate(4px,-4px);} .ds-contact:focus-visible{outline:2px solid #d6d9de;outline-offset:3px;border-radius:4px;}"
+    },
+    {
+      "name": "Linha de conteúdo",
+      "kind": "card",
+      "refersTo": "content-row",
+      "description": "Substitui o cartão: filete superior, sem fundo, título e metadado.",
+      "html": "<article class=\"ds-entry\"><h3>Modernização do licenciamento ambiental</h3><p class=\"ds-meta\">CMTech</p><p class=\"ds-text\">Sistema legado modernizado com arquitetura sustentável pelo time.</p></article>",
+      "css": ":host{--color-ink:#070708;--color-surface:#0e0e10;--color-line:#1d1d21;--color-line-strong:#2c2c32;--color-fg:#ededf0;--color-muted:#9d9da7;--color-silver:#d6d9de;--ease-out-expo:cubic-bezier(0.16,1,0.3,1);--chrome-fill:linear-gradient(105deg,#b4b8bf 0%,#eef0f2 25%,#c3c7cd 42%,#ffffff 55%,#b9bdc4 72%,#e4e6e9 88%,#aeb2b9 100%);--chrome:linear-gradient(105deg,#7e838c 0%,#e9ebee 22%,#a9aeb6 40%,#ffffff 52%,#8d929b 70%,#d5d8dd 86%,#6f747c 100%);} .ds-entry{font-family:'Schibsted Grotesk',ui-sans-serif,system-ui,sans-serif;padding-top:32px;border-top:1px solid #1d1d21;background:#0e0e10;color:#ededf0;} .ds-entry h3{margin:0;font-size:1.25rem;font-weight:600;letter-spacing:-0.025em;} .ds-meta{margin:8px 0 0;font-size:14px;color:#9d9da7;} .ds-text{margin:16px 0 0;font-size:16px;line-height:1.625;color:#9d9da7;}"
+    }
+  ],
+  "narrative": {
+    "northStar": "A Linha de Cromo",
+    "overview": "O sistema trata uma carreira em sistemas como um mapa de transporte: serviços, empregadores e o contato final são estações numa única linha contínua de cromo espelhado, correndo sobre um preto profundo. O visitante \"anda na linha\" de cima para baixo, da interconexão (o hub com a foto) até o terminal (contato). A leitura é calma e de baixa fadiga; o conteúdo vem em linhas tipográficas separadas por filetes finos, nunca em cartões.\n\nA densidade é baixa e generosa: seções altas, grade de 12 colunas, muito preto em volta de cada bloco. O único acento é o cromo, e ele significa \"aceso\": a linha, o anel de uma estação ativa, o nome, a ação principal, o idioma selecionado. Tudo o que não está aceso fica em grafite. O movimento é de iluminação: linhas que se desenham, estações que acendem, opacidade que sobe; nada entra deslizando.\n\nA geometria é octilinear (0, 45 e 90 graus), com terminações arredondadas, como num diagrama de metrô. A tipografia é sinalização: uma grotesca firme, com tracking negativo nos títulos, e uma mono reservada a dados.",
+    "keyCharacteristics": [
+      "Fundo preto quase puro com camadas tonais de grafite, sem sombras de elevação.",
+      "Um único gradiente cromado espelhado, reservado ao que está \"aceso\".",
+      "Linhas octilineares de 3px com pontas redondas e estações em anel.",
+      "Conteúdo em linhas com filete superior, nunca em cartões com fundo.",
+      "Movimento como brilho: desenhar, acender, revelar; com movimento reduzido tudo já aparece desenhado."
+    ],
+    "rules": [
+      {
+        "name": "The Lit Is Chrome Rule",
+        "body": "O cromo marca apenas o que está aceso ou é identidade: a linha da trajetória e do trilho, anéis de estação ativa, o nome, a ação principal, o idioma selecionado, o anel do monograma e uma única frase de fechamento no contato. Se não está aceso, é grafite.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Chromes Rule",
+        "body": "Há dois gradientes, ambos a 105 graus e com `background-size: 200%`: `--chrome` (contraste mais alto, para texto e traços) e `--chrome-fill` (mais claro, para preenchimentos com texto ink por cima). Não invente um terceiro.",
+        "section": "colors"
+      },
+      {
+        "name": "The Faint Halo Rule",
+        "body": "O único outro gradiente permitido é o halo radial de prata em opacidade 0.035 a 0.07, atrás do hero e do contato. Nunca acima de 0.08.",
+        "section": "colors"
+      },
+      {
+        "name": "The Data Wears Mono Rule",
+        "body": "Overpass Mono só para dados (durações, códigos). Nunca em títulos, rótulos de seção ou parágrafos.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tighter As It Grows Rule",
+        "body": "Tracking acompanha o tamanho: -0.04em no display, -0.03em em headlines, tight (-0.025em) em títulos, normal no corpo.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Ground Rule",
+        "body": "Nenhuma superfície flutua por sombra. Se algo precisa se destacar, use a faixa surface, um filete ou acenda em cromo.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** manter o preto ink como chão dominante e alternar seções só com surface e filetes de 1px.",
+      "**Do** reservar o cromo ao que está aceso: linha ativa, estação acesa, nome, ação principal, idioma selecionado.",
+      "**Do** desenhar linhas de mapa em 0, 45 ou 90 graus, com 3px, pontas e junções redondas.",
+      "**Do** usar a estação (14px, anel de 2.5px) como marcador de cada item de uma sequência.",
+      "**Do** animar por brilho e revelação (traço, opacidade, desfoque) com ease-out-expo `cubic-bezier(0.16, 1, 0.3, 1)`, e entregar tudo já desenhado sob `prefers-reduced-motion`.",
+      "**Do** usar ícones SVG de traço (grade de 24px, traço de 1.75, pontas redondas) em `currentColor`."
+    ],
+    "donts": [
+      "**Don't** colocar conteúdo em cartões com fundo, borda completa ou sombra; use linhas com filete superior.",
+      "**Don't** usar cromo em parágrafos, rótulos ou mais de uma frase por título.",
+      "**Don't** criar novas cores de acento ou gradientes coloridos; a paleta é grafite e cromo.",
+      "**Don't** usar Overpass Mono fora de dados.",
+      "**Don't** fazer elementos entrarem deslizando na tela; a página acende, não desliza.",
+      "**Don't** subir o halo radial acima de 0.08 de opacidade."
+    ]
+  }
+}

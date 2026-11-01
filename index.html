@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Anderson Paiva — Arquiteto de Software & DevOps</title>
+  <meta name="description" content="Anderson Paiva, Arquiteto de Software & DevOps com 8 anos de experiência. Arquitetura, criação e integração de sistemas, DevOps e IA aplicada ao negócio.">
+  <meta name="theme-color" content="#070708">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Anderson Paiva — Arquiteto de Software & DevOps">
+  <meta property="og:description" content="Arquitetura, criação e integração de sistemas, DevOps e IA aplicada ao negócio.">
+  <meta property="og:image" content="[URL DO SITE — substituir]images/profile.jpeg">
+  <meta property="og:url" content="[URL DO SITE — substituir]">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@400;500&family=Schibsted+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script>document.documentElement.classList.add('js')</script>
+</head>
+<body class="min-h-dvh">
+
+  <!-- Icon sprite (Lucide, 24px grid, 1.75 stroke) -->
+  <svg width="0" height="0" class="absolute" aria-hidden="true">
+    <symbol id="i-code" viewBox="0 0 24 24"><path d="m18 16 4-4-4-4"/><path d="m6 8-4 4 4 4"/><path d="m14.5 4-5 16"/></symbol>
+    <symbol id="i-cable" viewBox="0 0 24 24"><path d="M17 19a1 1 0 0 1-1-1v-2a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2a1 1 0 0 1-1 1z"/><path d="M17 21v-2"/><path d="M19 14V6.5a1 1 0 0 0-7 0v11a1 1 0 0 1-7 0V10"/><path d="M21 21v-2"/><path d="M3 5V3"/><path d="M4 10a2 2 0 0 1-2-2V6a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2a2 2 0 0 1-2 2z"/><path d="M7 5V3"/></symbol>
+    <symbol id="i-infinity" viewBox="0 0 24 24"><path d="M6 16c5 0 7-8 12-8a4 4 0 0 1 0 8c-5 0-7-8-12-8a4 4 0 1 0 0 8"/></symbol>
+    <symbol id="i-layers" viewBox="0 0 24 24"><path d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z"/><path d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12"/><path d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17"/></symbol>
+    <symbol id="i-sparkles" viewBox="0 0 24 24"><path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z"/><path d="M20 2v4"/><path d="M22 4h-4"/><circle cx="4" cy="20" r="2"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"/><rect x="2" y="4" width="20" height="16" rx="2"/></symbol>
+    <symbol id="i-whatsapp" viewBox="0 0 24 24"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0v1a5 5 0 0 0 5 5h1a.5.5 0 0 0 0-1h-1a.5.5 0 0 0 0 1"/></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M8 11v5"/><path d="M8 8v.01"/><path d="M12 16v-5"/><path d="M16 16v-3a2 2 0 1 0-4 0"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 5h16"/><path d="M4 12h16"/><path d="M4 19h16"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></symbol>
+  </svg>
+
+  <a href="#conteudo" class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-full focus:bg-fg focus:px-4 focus:py-2 focus:text-ink" data-i18n="skip">Pular para o conteúdo</a>
+
+  <!-- Scroll rail: the line the page rides on -->
+  <div class="pointer-events-none fixed inset-y-0 left-6 z-30 hidden w-px bg-line xl:block" aria-hidden="true">
+    <div class="rail-fill bg-chrome absolute inset-0"></div>
+    <ol id="rail-stops" class="absolute inset-0"></ol>
+  </div>
+
+  <header class="fixed inset-x-0 top-0 z-40 border-b border-line/70 bg-ink/80 backdrop-blur-md">
+    <div class="mx-auto flex h-16 max-w-6xl items-center justify-between gap-6 px-5 sm:px-8">
+      <a href="#topo" class="group flex items-center gap-3" aria-label="Anderson Paiva — início">
+        <span class="bg-chrome grid size-9 place-items-center rounded-full p-[1.5px]">
+          <span class="grid size-full place-items-center rounded-full bg-ink text-[13px] font-bold tracking-tight">AP</span>
+        </span>
+        <span class="hidden text-[15px] font-semibold tracking-tight sm:inline">Anderson Paiva</span>
+      </a>
+
+      <nav class="hidden md:block" aria-label="Principal">
+        <ul class="flex items-center gap-7">
+          <li><a class="nav-link" href="#sobre" data-i18n="nav.about">Sobre</a></li>
+          <li><a class="nav-link" href="#servicos" data-i18n="nav.services">Serviços</a></li>
+          <li><a class="nav-link" href="#contato" data-i18n="nav.contact">Contato</a></li>
+        </ul>
+      </nav>
+
+      <div class="flex items-center gap-2">
+        <div class="flex items-center rounded-full border border-line p-0.5" role="group" aria-label="Idioma / Language / Idioma">
+          <button type="button" class="lang-btn" data-lang="pt" aria-pressed="true" lang="pt-BR" title="Português">PT</button>
+          <button type="button" class="lang-btn" data-lang="en" aria-pressed="false" lang="en" title="English">EN</button>
+          <button type="button" class="lang-btn" data-lang="es" aria-pressed="false" lang="es" title="Español">ES</button>
+        </div>
+        <button type="button" id="menu-btn" class="grid size-11 place-items-center rounded-full text-fg md:hidden" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu" data-i18n-aria="menu.open">
+          <svg class="icon size-5"><use href="#i-menu"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <nav id="menu" class="hidden border-t border-line md:hidden" aria-label="Principal (mobile)">
+      <ul class="mx-auto flex max-w-6xl flex-col px-5 py-2">
+        <li><a class="block py-3.5 text-lg" href="#sobre" data-i18n="nav.about">Sobre</a></li>
+        <li><a class="block py-3.5 text-lg" href="#servicos" data-i18n="nav.services">Serviços</a></li>
+        <li><a class="block py-3.5 text-lg" href="#contato" data-i18n="nav.contact">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+
+    <!-- Hero: the interchange -->
+    <section id="topo" class="relative overflow-hidden pt-16">
+      <div class="pointer-events-none absolute inset-0" aria-hidden="true"
+           style="background: radial-gradient(60% 55% at 72% 42%, rgb(214 217 222 / 0.07), transparent 70%), radial-gradient(40% 40% at 10% 100%, rgb(214 217 222 / 0.035), transparent 70%);"></div>
+
+      <div class="relative mx-auto grid max-w-6xl items-center gap-10 px-5 pb-20 pt-12 sm:px-8 lg:min-h-[calc(100dvh-4rem)] lg:grid-cols-12 lg:gap-6 lg:py-16">
+        <div class="lg:col-span-6">
+          <h1 class="chrome-text text-[clamp(3.25rem,8vw,5.75rem)] font-bold leading-[0.92] tracking-[-0.04em]">Anderson<br>Paiva</h1>
+          <p class="mt-6 text-xl font-medium tracking-tight text-fg sm:text-2xl" data-i18n="hero.role">Arquiteto de Software & DevOps</p>
+          <p class="mt-5 max-w-[34rem] text-[17px] leading-relaxed text-muted" data-i18n="hero.lead">Eu construo soluções para os problemas dos clientes, com arquitetura sólida, integrações confiáveis, automação de ponta a ponta e IA aplicada onde ela gera valor real.</p>
+
+          <div class="mt-9 flex flex-wrap items-center gap-3">
+            <a class="btn-primary" href="https://wa.me/[SEU-NUMERO]" target="_blank" rel="noopener">
+              <svg class="icon size-[18px]"><use href="#i-whatsapp"/></svg>
+              <span data-i18n="cta.whatsapp">Conversar no WhatsApp</span>
+            </a>
+            <a class="btn-ghost" href="mailto:[SEU-EMAIL]">
+              <svg class="icon size-[18px]"><use href="#i-mail"/></svg>
+              E-mail
+            </a>
+            <a class="btn-ghost" href="https://www.linkedin.com/in/[SEU-PERFIL]" target="_blank" rel="noopener">
+              <svg class="icon size-[18px]"><use href="#i-linkedin"/></svg>
+              LinkedIn
+            </a>
+          </div>
+
+          <ul class="mt-10 flex flex-wrap gap-x-6 gap-y-3 text-sm text-muted">
+            <li class="flex items-center gap-2"><svg class="icon size-4"><use href="#i-pin"/></svg><span data-i18n="hero.location">Abreu e Lima, PE&nbsp;· Atendimento remoto</span></li>
+            <li class="flex items-center gap-2"><span class="bg-chrome size-2 rounded-full" aria-hidden="true"></span><span data-i18n="hero.current">Arquiteto Sênior na Accenture</span></li>
+          </ul>
+        </div>
+
+        <div class="lg:col-span-6">
+          <svg class="map mx-auto w-full max-w-[640px]" viewBox="0 0 600 560" role="group" aria-labelledby="map-title">
+            <title id="map-title" data-i18n="map.title">Mapa de serviços: arquitetura, sistemas, integrações, DevOps e IA aplicada</title>
+            <defs>
+              <linearGradient id="chrome" x1="0" y1="0" x2="600" y2="560" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#7e838c"/>
+                <stop offset=".22" stop-color="#e9ebee"/>
+                <stop offset=".4" stop-color="#a9aeb6"/>
+                <stop offset=".52" stop-color="#ffffff"/>
+                <stop offset=".7" stop-color="#8d929b"/>
+                <stop offset=".86" stop-color="#d5d8dd"/>
+                <stop offset="1" stop-color="#6f747c"/>
+              </linearGradient>
+              <clipPath id="hub-clip"><circle cx="300" cy="280" r="94"/></clipPath>
+            </defs>
+
+            <g aria-hidden="true">
+              <path class="map-base" d="M226.5 206.5 L170 150 H70"/>
+              <path class="map-base" d="M300 176 V112 L340 72 H470"/>
+              <path class="map-base" d="M404 280 H560"/>
+              <path class="map-base" d="M373.5 353.5 L420 400 H530"/>
+              <path class="map-base" d="M300 384 V440 L260 480 H90"/>
+            </g>
+
+            <a class="map-stop" href="#servicos" style="--i:0">
+              <path class="map-line" stroke="url(#chrome)" d="M226.5 206.5 L170 150 H70"/>
+              <circle class="map-dot" stroke="url(#chrome)" cx="70" cy="150" r="8"/>
+              <text class="map-label" x="62" y="124" data-i18n="svc.arch.short">Arquitetura</text>
+            </a>
+            <a class="map-stop" href="#servicos" style="--i:1">
+              <path class="map-line" stroke="url(#chrome)" d="M300 176 V112 L340 72 H470"/>
+              <circle class="map-dot" stroke="url(#chrome)" cx="470" cy="72" r="8"/>
+              <text class="map-label" x="478" y="46" text-anchor="end" data-i18n="svc.dev.short">Sistemas</text>
+            </a>
+            <a class="map-stop" href="#servicos" style="--i:2">
+              <path class="map-line" stroke="url(#chrome)" d="M404 280 H560"/>
+              <circle class="map-dot" stroke="url(#chrome)" cx="560" cy="280" r="8"/>
+              <text class="map-label" x="568" y="254" text-anchor="end" data-i18n="svc.int.short">Integrações</text>
+            </a>
+            <a class="map-stop" href="#servicos" style="--i:3">
+              <path class="map-line" stroke="url(#chrome)" d="M373.5 353.5 L420 400 H530"/>
+              <circle class="map-dot" stroke="url(#chrome)" cx="530" cy="400" r="8"/>
+              <text class="map-label" x="538" y="438" text-anchor="end" data-i18n="svc.ops.short">DevOps</text>
+            </a>
+            <a class="map-stop" href="#servicos" style="--i:4">
+              <path class="map-line" stroke="url(#chrome)" d="M300 384 V440 L260 480 H90"/>
+              <circle class="map-dot" stroke="url(#chrome)" cx="90" cy="480" r="8"/>
+              <text class="map-label" x="82" y="518" data-i18n="svc.ai.short">IA aplicada</text>
+            </a>
+
+            <g class="map-hub">
+              <circle cx="300" cy="280" r="104" fill="none" stroke="url(#chrome)" stroke-width="3"/>
+              <circle cx="300" cy="280" r="96" fill="#0e0e10"/>
+              <image href="images/profile.jpeg" x="196" y="176" width="208" height="208" clip-path="url(#hub-clip)" preserveAspectRatio="xMidYMid slice">
+                <title>Anderson Paiva</title>
+              </image>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="border-t border-line">
+      <div class="mx-auto grid max-w-6xl gap-12 px-5 py-24 sm:px-8 lg:grid-cols-12 lg:gap-6 lg:py-32">
+        <div class="lg:col-span-5">
+          <h2 class="text-[clamp(2rem,4vw,3rem)] font-semibold leading-[1.05] tracking-[-0.03em]" data-i18n="about.title">Tecnologia a serviço do problema, não o contrário.</h2>
+        </div>
+        <div class="space-y-5 text-[17px] leading-relaxed text-muted lg:col-span-6 lg:col-start-7">
+          <p data-i18n="about.p1">Sou Anderson Paiva, arquiteto de software e DevOps com 8 anos de experiência em engenharia, arquitetura de sistemas e automação. Hoje atuo como Arquiteto Sênior na Accenture.</p>
+          <p data-i18n="about.p2">Minha trajetória passa pela modernização de um sistema de licenciamento ambiental, por uma plataforma omnichannel integrada a vários provedores de mensagens e modelos de IA, e pela automação de infraestrutura em Kubernetes. Em todos esses projetos, o ponto de partida foi o mesmo: entender o problema do negócio antes de escolher a tecnologia.</p>
+        </div>
+
+        <div class="lg:col-span-12 lg:mt-10">
+          <h3 class="sr-only" data-i18n="about.principles">Como eu trabalho</h3>
+          <dl class="grid gap-x-6 gap-y-10 border-t border-line pt-10 sm:grid-cols-2 lg:grid-cols-4">
+            <div>
+              <dt class="font-semibold tracking-tight" data-i18n="about.k1">Problema antes da ferramenta</dt>
+              <dd class="mt-2 text-[15px] leading-relaxed text-muted" data-i18n="about.v1">Começo pelo que precisa mudar no negócio. A stack vem depois.</dd>
+            </div>
+            <div>
+              <dt class="font-semibold tracking-tight" data-i18n="about.k2">Arquitetura que o time sustenta</dt>
+              <dd class="mt-2 text-[15px] leading-relaxed text-muted" data-i18n="about.v2">Soluções simples de operar, documentadas e fáceis de evoluir.</dd>
+            </div>
+            <div>
+              <dt class="font-semibold tracking-tight" data-i18n="about.k3">Automação de ponta a ponta</dt>
+              <dd class="mt-2 text-[15px] leading-relaxed text-muted" data-i18n="about.v3">O que se repete vira pipeline: build, testes, deploy e infraestrutura como código.</dd>
+            </div>
+            <div>
+              <dt class="font-semibold tracking-tight" data-i18n="about.k4">Transparência</dt>
+              <dd class="mt-2 text-[15px] leading-relaxed text-muted" data-i18n="about.v4">Riscos, prazos e trade-offs ditos com clareza desde o primeiro dia.</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- Serviços: a route with five stations -->
+    <section id="servicos" class="border-t border-line bg-surface">
+      <div class="mx-auto max-w-6xl px-5 py-24 sm:px-8 lg:py-32">
+        <div class="grid gap-6 lg:grid-cols-12">
+          <h2 class="text-[clamp(2rem,4vw,3rem)] font-semibold leading-[1.05] tracking-[-0.03em] lg:col-span-6" data-i18n="svc.title">Do desenho à operação, uma linha só.</h2>
+          <p class="max-w-md text-[17px] leading-relaxed text-muted lg:col-span-5 lg:col-start-8 lg:self-end" data-i18n="svc.lead">Atendo empresas e times que precisam tirar uma ideia do papel, conectar sistemas que não conversam ou colocar a entrega no automático.</p>
+        </div>
+
+        <ol class="mt-16 lg:mt-20">
+          <li class="service-row relative grid items-start gap-3 border-t border-line py-9 lg:grid-cols-12 lg:gap-6 lg:py-11">
+            <h3 class="flex items-center gap-3 text-2xl font-semibold tracking-tight lg:col-span-4">
+              <svg class="icon service-icon text-muted transition-colors"><use href="#i-layers"/></svg>
+              <span data-i18n="svc.arch.name">Arquitetura de software</span>
+            </h3>
+            <p class="max-w-xl text-[16px] leading-relaxed text-muted lg:col-span-5" data-i18n="svc.arch.desc">Desenho de arquiteturas escaláveis e seguras, decisões técnicas registradas e revisão de sistemas existentes antes que a dívida técnica vire custo.</p>
+            <p class="text-sm leading-relaxed text-muted lg:col-span-3 lg:text-right" data-i18n="svc.arch.tags">Desenho de solução&nbsp;· Revisão&nbsp;· Modernização</p>
+          </li>
+
+          <li class="service-row relative grid items-start gap-3 border-t border-line py-9 lg:grid-cols-12 lg:gap-6 lg:py-11">
+            <h3 class="flex items-center gap-3 text-2xl font-semibold tracking-tight lg:col-span-4">
+              <svg class="icon service-icon text-muted transition-colors"><use href="#i-code"/></svg>
+              <span data-i18n="svc.dev.name">Criação de sistemas</span>
+            </h3>
+            <p class="max-w-xl text-[16px] leading-relaxed text-muted lg:col-span-5" data-i18n="svc.dev.desc">Sistemas sob medida, do back-end às interfaces de integração, com código limpo, testado e pronto para crescer junto com o negócio.</p>
+            <p class="text-sm leading-relaxed text-muted lg:col-span-3 lg:text-right" data-i18n="svc.dev.tags">APIs&nbsp;· Back-end&nbsp;· Sistemas web</p>
+          </li>
+
+          <li class="service-row relative grid items-start gap-3 border-t border-line py-9 lg:grid-cols-12 lg:gap-6 lg:py-11">
+            <h3 class="flex items-center gap-3 text-2xl font-semibold tracking-tight lg:col-span-4">
+              <svg class="icon service-icon text-muted transition-colors"><use href="#i-cable"/></svg>
+              <span data-i18n="svc.int.name">Integração de sistemas</span>
+            </h3>
+            <p class="max-w-xl text-[16px] leading-relaxed text-muted lg:col-span-5" data-i18n="svc.int.desc">Conecto plataformas, APIs e provedores externos para que dados e processos fluam sem retrabalho manual nem planilhas no meio do caminho.</p>
+            <p class="text-sm leading-relaxed text-muted lg:col-span-3 lg:text-right" data-i18n="svc.int.tags">APIs&nbsp;· Mensageria&nbsp;· Omnichannel</p>
+          </li>
+
+          <li class="service-row relative grid items-start gap-3 border-t border-line py-9 lg:grid-cols-12 lg:gap-6 lg:py-11">
+            <h3 class="flex items-center gap-3 text-2xl font-semibold tracking-tight lg:col-span-4">
+              <svg class="icon service-icon text-muted transition-colors"><use href="#i-infinity"/></svg>
+              <span data-i18n="svc.ops.name">DevOps & plataforma</span>
+            </h3>
+            <p class="max-w-xl text-[16px] leading-relaxed text-muted lg:col-span-5" data-i18n="svc.ops.desc">Pipelines de CI/CD, Kubernetes, infraestrutura como código e GitOps para entregar com frequência, segurança e previsibilidade.</p>
+            <p class="text-sm leading-relaxed text-muted lg:col-span-3 lg:text-right">Kubernetes&nbsp;· Terraform&nbsp;· Argo CD</p>
+          </li>
+
+          <li class="service-row relative grid items-start gap-3 border-y border-line py-9 lg:grid-cols-12 lg:gap-6 lg:py-11">
+            <h3 class="flex items-center gap-3 text-2xl font-semibold tracking-tight lg:col-span-4">
+              <svg class="icon service-icon text-muted transition-colors"><use href="#i-sparkles"/></svg>
+              <span data-i18n="svc.ai.name">IA aplicada ao negócio</span>
+            </h3>
+            <p class="max-w-xl text-[16px] leading-relaxed text-muted lg:col-span-5" data-i18n="svc.ai.desc">Integração de modelos de IA a produtos e processos, escolhendo o modelo certo para cada tarefa e medindo o valor que ele entrega.</p>
+            <p class="text-sm leading-relaxed text-muted lg:col-span-3 lg:text-right">OpenAI&nbsp;· Anthropic&nbsp;· DeepSeek</p>
+          </li>
+        </ol>
+
+        <p class="mt-10 text-[15px] text-muted"><span class="font-medium text-fg" data-i18n="svc.model.label">Formatos de contratação:</span> <span data-i18n="svc.model">projeto fechado, consultoria por hora ou alocação.</span></p>
+      </div>
+    </section>
+
+    <!-- Contato: the terminal station -->
+    <section id="contato" class="relative overflow-hidden border-t border-line">
+      <div class="pointer-events-none absolute inset-0" aria-hidden="true"
+           style="background: radial-gradient(50% 60% at 15% 0%, rgb(214 217 222 / 0.06), transparent 70%);"></div>
+      <div class="relative mx-auto grid max-w-6xl gap-14 px-5 py-24 sm:px-8 lg:grid-cols-12 lg:gap-6 lg:py-36">
+        <div class="relative pl-10 sm:pl-12 lg:col-span-5">
+          <span class="bg-chrome absolute -top-24 left-[6px] h-[calc(6rem+18px)] w-px lg:-top-36 lg:h-[calc(9rem+30px)]" aria-hidden="true"></span>
+          <span class="station station-lit absolute left-0 top-[11px] lg:top-[23px]" aria-hidden="true"></span>
+          <h2 class="text-[clamp(2.25rem,5vw,3.75rem)] font-semibold leading-[1.02] tracking-[-0.035em]">
+            <span data-i18n="contact.title1">Vamos conversar sobre</span>
+            <span class="chrome-text" data-i18n="contact.title2">o seu projeto.</span>
+          </h2>
+          <p class="mt-6 max-w-md text-[17px] leading-relaxed text-muted" data-i18n="contact.lead">Conte qual problema você precisa resolver. Eu leio cada mensagem e respondo pessoalmente.</p>
+        </div>
+
+        <ul class="lg:col-span-6 lg:col-start-7">
+          <li>
+            <a class="contact-row" href="https://wa.me/[SEU-NUMERO]" target="_blank" rel="noopener">
+              <svg class="icon size-6 text-silver"><use href="#i-whatsapp"/></svg>
+              <span class="flex-1">
+                <span class="block text-lg font-semibold tracking-tight">WhatsApp</span>
+                <span class="contact-value block text-[15px] text-muted transition-colors">[SEU NÚMERO]</span>
+              </span>
+              <svg class="icon arrow text-muted"><use href="#i-arrow"/></svg>
+            </a>
+          </li>
+          <li>
+            <a class="contact-row" href="mailto:[SEU-EMAIL]">
+              <svg class="icon size-6 text-silver"><use href="#i-mail"/></svg>
+              <span class="flex-1">
+                <span class="block text-lg font-semibold tracking-tight">E-mail</span>
+                <span class="contact-value block text-[15px] text-muted transition-colors">[SEU E-MAIL]</span>
+              </span>
+              <svg class="icon arrow text-muted"><use href="#i-arrow"/></svg>
+            </a>
+          </li>
+          <li>
+            <a class="contact-row border-b" href="https://www.linkedin.com/in/[SEU-PERFIL]" target="_blank" rel="noopener">
+              <svg class="icon size-6 text-silver"><use href="#i-linkedin"/></svg>
+              <span class="flex-1">
+                <span class="block text-lg font-semibold tracking-tight">LinkedIn</span>
+                <span class="contact-value block text-[15px] text-muted transition-colors">[SEU PERFIL]</span>
+              </span>
+              <svg class="icon arrow text-muted"><use href="#i-arrow"/></svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-line">
+    <div class="mx-auto flex max-w-6xl flex-col gap-4 px-5 py-10 pb-[max(2.5rem,env(safe-area-inset-bottom))] text-sm text-muted sm:flex-row sm:items-center sm:justify-between sm:px-8">
+      <p>© <span id="year">2026</span> Anderson Paiva. <span data-i18n="footer.place">Abreu e Lima, Pernambuco, Brasil.</span></p>
+      <a href="#topo" class="py-2 transition-colors hover:text-fg" data-i18n="footer.top">Voltar ao topo</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
